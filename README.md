@@ -8,19 +8,11 @@ This will result in smaller output PDF size, and will make the images render pro
 
 ### Usage (tested with WINDOWS 7 64bit only)
 
-    $ pdfix.sh input.pdf
+Open wsl in Windows and navigate to the folder then execute
+
+    $ ./pdfix.sh input.pdf
 
 Will produce a file `input-fixed.pdf` in the same directory.
-
-Ghostscript installation is required! Install on macOS using [Homebrew](https://brew.sh/):
-    
-    brew install ghostscript
-    
-Or on Ubuntu / Bash on Windows (WSL) using:
-
-    sudo apt-get install ghostscript
-
-
 
 #### Example
 
