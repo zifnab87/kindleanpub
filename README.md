@@ -6,7 +6,7 @@ A small shell script that fixes garbled/broken image rendering on (older) Kindle
 Using [Ghostscript](https://www.ghostscript.com/), this script will convert all images inside the PDF to JPEG using highest quality conversion.  
 This will result in smaller output PDF size, and will make the images render properly on older Kindles (e.g. Kindle DX)
 
-### Usage (tested with WINDOWS 7 only)
+### Usage (tested with WINDOWS 7 64bit only)
 
     $ pdfix.sh input.pdf
 
