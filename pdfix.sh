@@ -18,7 +18,7 @@ fix() {
 	# Converting using high quality, color preserving, 300 dpi imgs
 	# see https://stackoverflow.com/questions/40849325/ghostscript-pdfwrite-specify-jpeg-quality
 
-	gs \
+	gswin64.exe \
 		-sOutputFile="$2" \
 		-q -dNOPAUSE -dBATCH -dSAFER \
 		-sDEVICE=pdfwrite \
