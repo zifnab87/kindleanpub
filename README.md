@@ -8,11 +8,13 @@ This will result in smaller output PDF size, and will make the images render pro
 
 ### Usage (tested with WINDOWS 10 64bit only)
 
-Open wsl in Windows and navigate to the folder then execute
+- Drop your input.pdf inside the repo folder
+
+- Open wsl in Windows and navigate to the folder then execute
 
     $ ./pdfix.sh input.pdf
 
-Will produce a file `input-fixed.pdf` in the same directory.
+- Will produce a file `input-fixed.pdf` in the same directory.
 
 #### Example
 
